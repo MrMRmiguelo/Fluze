@@ -64,14 +64,14 @@
                         android:id="@+id/movie_tagline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sub title"
+                        android:text="Sub"
                         android:textSize="14sp"
                         android:textStyle="bold"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Movie Info"
+                        android:text="Info Pelicula"
                         android:layout_marginTop="15dp"
                         android:textSize="14sp"
                         android:textStyle="bold"/>
@@ -85,7 +85,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="ReleaseD  ate: "
+                            android:text="Fecha de Lanzamiento"
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -131,7 +131,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="Runtime: "
+                            android:text="Duracion: "
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -154,7 +154,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="Budget: "
+                            android:text="Recolecta: "
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 
@@ -177,7 +177,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="Revenue: "
+                            android:text="Ingresos: "
                             android:textSize="12sp"
                             android:textStyle="bold"/>
 

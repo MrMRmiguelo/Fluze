@@ -3,7 +3,11 @@ package com.example.fluze.data.vo
 
 import com.google.gson.annotations.SerializedName
 
-data class Result(
+data class Movie(
+
+
+
+
     val budget: Int,
     val id: Int,
     val overview: String,

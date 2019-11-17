@@ -4,7 +4,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.fluze.data.apiResponse.ApiDBInterface
-import com.example.fluze.data.vo.MovieDetails
+import com.example.fluze.data.vo.Movie
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
@@ -16,8 +16,8 @@ class MovieDetailsNetworkDataSource (private val apiService : ApiDBInterface, pr
         get() = _networkState
 
 
-    private val _downloadedMovieDetailsResponse =  MutableLiveData<MovieDetails>()
-    val downloadedMovieResponse: LiveData<MovieDetails>
+    private val _downloadedMovieDetailsResponse =  MutableLiveData<Movie>()
+    val downloadedMovieResponse: LiveData<Movie>
         get() = _downloadedMovieDetailsResponse
 
     fun fetchMovieDetails(movieId: Int) {
