@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SingleMovie.SingleMovie"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.fluze.ui.popular_movies.SingleMovie.SingleMovie"></activity>
+        <activity android:name=".ui.popular_movies.popular.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

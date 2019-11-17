@@ -1,4 +1,4 @@
-package com.example.fluze.SingleMovie
+package com.example.fluze.ui.popular_movies.SingleMovie
 
 import androidx.lifecycle.LiveData
 import com.example.fluze.data.apiResponse.ApiDBInterface

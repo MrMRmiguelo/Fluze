@@ -1,9 +1,11 @@
 package com.example.fluze.data.apiResponse
 
 import com.example.fluze.data.vo.Movie
+import com.example.fluze.data.vo.MovieResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Path
+import retrofit2.http.Query
 
 
 interface ApiDBInterface {
@@ -14,4 +16,7 @@ interface ApiDBInterface {
     //Obtener los datos de las peliculas populares
     @GET("movie/{movie_id}")
     fun getMovieDetails(@Path("movie_id") id: Int): Single<Movie>
+
+    @GET("movie/popular")
+    fun getPopularMovie(@Query("page") page: Int): Single<MovieResponse>
 }

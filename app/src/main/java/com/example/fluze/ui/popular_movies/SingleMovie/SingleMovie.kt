@@ -1,4 +1,4 @@
-package com.example.fluze.SingleMovie
+package com.example.fluze.ui.popular_movies.SingleMovie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,7 +14,6 @@ import com.example.fluze.data.apiResponse.ApiDBInterface
 import com.example.fluze.data.apiResponse.POSTER_BASE_URL
 import com.example.fluze.data.repository.NetworkState
 import com.example.fluze.data.vo.Movie
-import com.example.fluze.data.vo.MovieDetails
 import kotlinx.android.synthetic.main.activity_single_movie.*
 import java.text.NumberFormat
 import java.util.*
@@ -39,6 +38,7 @@ class SingleMovie : AppCompatActivity() {
 
         viewModel.movie.observe(this, Observer {
             bindUI(it)
+            
 
         })
         viewModel.networkState.observe(this, Observer {
