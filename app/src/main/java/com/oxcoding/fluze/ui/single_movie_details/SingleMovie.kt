@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
-import com.oxcoding.moviemvvm.R
+import com.oxcoding.fluze.R
 import com.oxcoding.fluze.data.api.POSTER_BASE_URL
 import com.oxcoding.fluze.data.api.TheMovieDBClient
 import com.oxcoding.fluze.data.api.TheMovieDBInterface

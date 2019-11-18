@@ -20,4 +20,5 @@ data class MovieDetails(
     val video: Boolean,
     @SerializedName("vote_average")
     val rating: Double
+
 )

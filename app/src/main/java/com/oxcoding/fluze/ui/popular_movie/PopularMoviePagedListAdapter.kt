@@ -9,7 +9,7 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.oxcoding.moviemvvm.R
+import com.oxcoding.fluze.R
 import com.oxcoding.fluze.data.api.POSTER_BASE_URL
 import com.oxcoding.fluze.data.repository.NetworkState
 import com.oxcoding.fluze.data.vo.Movie

@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
-import com.oxcoding.moviemvvm.R
+import com.oxcoding.fluze.R
 import com.oxcoding.fluze.data.api.TheMovieDBClient
 import com.oxcoding.fluze.data.api.TheMovieDBInterface
 import com.oxcoding.fluze.data.repository.NetworkState
