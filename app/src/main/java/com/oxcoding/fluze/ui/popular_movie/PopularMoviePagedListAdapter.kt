@@ -142,13 +142,13 @@ import android.widget.Toast
         val hasExtraRow = hasExtraRow()
 
         if (hadExtraRow != hasExtraRow) {
-            if (hadExtraRow) {                             //hadExtraRow is true and hasExtraRow false
-                notifyItemRemoved(super.getItemCount())    //remove the progressbar at the end
-            } else {                                       //hasExtraRow is true and hadExtraRow false
-                notifyItemInserted(super.getItemCount())   //add the progressbar at the end
+            if (hadExtraRow) {
+                notifyItemRemoved(super.getItemCount())
+            } else {
+                notifyItemInserted(super.getItemCount())
             }
-        } else if (hasExtraRow && previousState != newNetworkState) { //hasExtraRow is true and hadExtraRow true and (NetworkState.ERROR or NetworkState.ENDOFLIST)
-            notifyItemChanged(itemCount - 1)       //add the network message at the end
+        } else if (hasExtraRow && previousState != newNetworkState) {
+            notifyItemChanged(itemCount - 1)
         }
 
     }

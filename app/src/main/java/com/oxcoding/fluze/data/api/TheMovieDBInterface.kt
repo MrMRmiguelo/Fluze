@@ -9,8 +9,8 @@ import retrofit2.http.Query
 
 interface TheMovieDBInterface {
 
-    // https://api.themoviedb.org/3/movie/popular?api_key=6e63c2317fbe963d76c3bdc2b785f6d1&page=1
-    // https://api.themoviedb.org/3/movie/299534?api_key=6e63c2317fbe963d76c3bdc2b785f6d1
+    // https://api.themoviedb.org/3/movie/popular?api_key=034c86d6bc906024e1abb43009570b16&page=1
+    // https://api.themoviedb.org/3/movie/299534?api_key=034c86d6bc906024e1abb43009570b16
     // https://api.themoviedb.org/3/
 
     @GET("movie/popular")
